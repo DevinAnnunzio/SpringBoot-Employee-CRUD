@@ -47,11 +47,15 @@ public class EmployeeRestController {
     }
 
     //Update an employee using PUT
-    @PutMapping("/employees}")
+    @PutMapping("/employees")
     public Employee updateEmployee(@RequestBody Employee theEmployee){
         Employee updatedEmp = employeeService.save(theEmployee);
         return updatedEmp;
     }
+
+    //Delete Employee
+//    @DeleteMapping("/employees")
+
 
 
 
