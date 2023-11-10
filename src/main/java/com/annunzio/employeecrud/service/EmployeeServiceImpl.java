@@ -29,9 +29,6 @@ public class EmployeeServiceImpl implements EmployeeService{
         Employee possibleEmp = null;
 
         if(search.isPresent()){
-            System.out.println("HERRRRRRRRRE");
-            System.out.println(search);
-            System.out.println(search.get());
             possibleEmp = search.get();
             return possibleEmp;
         } else {
