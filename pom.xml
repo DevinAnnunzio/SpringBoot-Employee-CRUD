@@ -26,7 +26,6 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-
 		<!--Spring DATA REST-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
